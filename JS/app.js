@@ -45,3 +45,15 @@ if (option.value == 'left') {
 }
     
 }
+
+function fontSize() {
+var select = document.getElementById('fontSize');
+var option = select.options[select.selectedIndex]
+document.getElementById('post').style.fontSize = option.value + 'px';
+}
+
+function fontWeight() {
+var select = document.getElementById('fontWeight');
+var option = select.options[select.selectedIndex]
+document.getElementById('post').style.fontWeight = option.innerText;
+}
