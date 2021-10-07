@@ -72,3 +72,15 @@ function statusWidth() {
     var option = select.options[select.selectedIndex]
     document.getElementById('post').style.width = option.innerText;
     }
+
+function fontFamily() {
+    var select = document.getElementById('fontFamily');
+    var option = select.options[select.selectedIndex]
+    document.getElementById('post').style.fontFamily = option.value;
+
+    if(option.value == 'talldark'){
+        document.getElementById('post').style.letterSpacing = '4px'
+        // document.getElementById('post').style.lineHeight += '8px'
+
+    }
+    }

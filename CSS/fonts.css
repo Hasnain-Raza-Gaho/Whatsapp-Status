@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'beauty\ angelique';
+    font-family: 'beauty angelique';
     src: url('/Assets/fonts/beauty\ angelique.ttf');
 }
 
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-    font-family: '/courier';
+    font-family: 'courier';
     src: url('/Assets/fonts/courier.ttf');
 }
 
@@ -99,32 +99,32 @@
 }
 
 @font-face {
-    font-family: 'MB\ Ahmed\ Soomro\ SK\ 2.0';
+    font-family: 'MB Ahmed Soomro SK 2.0';
     src: url('/Assets/fonts/MB\ Ahmed\ Soomro\ SK\ 2.0.ttf');
 }
 
 @font-face {
-    font-family: 'MB\ Halai\ Shabir\ Kumbhar\ 2.0';
+    font-family: 'MB Halai Shabir Kumbhar 2.0';
     src: url('/Assets/fonts/MB\ Halai\ Shabir\ Kumbhar\ 2.0.ttf');
 }
 
 @font-face {
-    font-family: 'MB\ Khursheed\ SK\ 2.0';
+    font-family: 'MB Khursheed SK 2.0';
     src: url('/Assets/fonts/MB\ Khursheed\ SK\ 2.0.ttf');
 }
 
 @font-face {
-    font-family: 'MB\ Kufi\ SK\ 2.0';
+    font-family: 'MB Kufi SK 2.0';
     src: url('/Assets/fonts/MB\ Kufi\ SK\ 2.0.ttf');
 }
 
 @font-face {
-    font-family: 'MB\ Leekyal\ Shabir\ Kumbhar\ 2.0';
+    font-family: 'MB Leekyal Shabir Kumbhar 2.0';
     src: url('/Assets/fonts/MB\ Leekyal\ Shabir\ Kumbhar\ 2.0.ttf');
 }
 
 @font-face {
-    font-family: 'MB\ Sookhri\ Shabir\ Kumbhar\ 2.0';
+    font-family: 'MB Sookhri Shabir Kumbhar 2.0';
     src: url('/Assets/fonts/MB\ Sookhri\ Shabir\ Kumbhar\ 2.0.ttf');
 }
 
@@ -139,17 +139,18 @@
 }
 
 @font-face {
-    font-family: 'Photograph\ Signature';
+    font-family: 'Photograph Signature';
     src: url('/Assets/fonts/Photograph\ Signature.ttf');
 }
 
 @font-face {
     font-family: 'talldark';
     src: url('/Assets/fonts/talldark.ttf');
+    
 }
 
 @font-face {
-    font-family: 'Title\ Wave\ Regular';
+    font-family: 'Title Wave Regular';
     src: url('/Assets/fonts/Title\ Wave\ Regular.ttf');
 }
 

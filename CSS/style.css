@@ -71,8 +71,16 @@
     /* border-radius: 10px; */
     /* border:1px solid rgb(226, 226, 226); */
     word-wrap: break-word;
-    /* margin-top: 200px; */
-    
+    /* margin-top: 200px; */    font-family: 'UrdType';
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -102,7 +110,7 @@ margin-left: 15px;
 } 
 */
 
-#textTransform, #textAlign, #fontSize, #fontWeight, #statusWidth {
+#textTransform, #textAlign, #fontSize, #fontWeight, #statusWidth, #fontFamily {
     padding: 6px;
 }
 
@@ -110,6 +118,8 @@ textarea{
 min-width: 200px;
 width: 90%;
 min-height: 200px;
+font-size: 20px;
+font-family: calibri;
 }
 
 #buttons{
@@ -121,6 +131,11 @@ min-height: 200px;
 #buttons>div{
  margin: 10px;
 }
+#buttons option{
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+}
 
 #fontColor, #statusColor{
     border: 1px solid grey;
@@ -131,3 +146,132 @@ min-height: 200px;
     width: 80px;
     padding: 5px;
 }
+
+#marker{
+    font-family: marker;
+}
+
+#oldfonts {
+    font-family: 'Old Fonts';
+}
+
+#abril {
+    font-family: 'Abril-Regular';
+}
+
+#alhenya{
+    font-family: 'Alhenya Script';
+}
+
+#Amatic {
+    font-family: 'AmaticSC-Regular';
+}
+
+#Arizonia {
+    font-family: 'Arizonia-Regular';
+}
+
+#atwriter {
+    font-family: 'atwriter';
+}
+
+#Autery {
+    font-family: 'Autery';
+}
+
+#beauty {
+    font-family: 'beauty angelique';
+}
+
+#BebasKai {
+    font-family: 'BebasKai';
+}
+
+#BerkshireSwash-Regular {
+    font-family: 'BerkshireSwash-Regular';
+}
+
+#Bungasai {
+    font-family: 'Bungasai';
+}
+
+#calibri {
+    font-family: 'calibri';
+}
+
+#ChopinScript {
+    font-family: 'ChopinScript';
+}
+
+#CinzelDecorative-Black {
+    font-family: 'CinzelDecorative-Black';
+}
+
+#CinzelDecorative {
+    font-family: 'CinzelDecorative-Regular';
+}
+
+#courier {
+    font-family: 'courier';
+}
+
+#Florence-Regular {
+    font-family: 'Florence-Regular';
+}
+
+#GOTHIC {
+    font-family: 'GOTHIC';
+}
+
+#KaushanScript-Regular {
+    font-family: 'KaushanScript-Regular';
+}
+
+#MBAhmedSoomroSK{
+    font-family: 'MB Ahmed Soomro SK 2.0';
+}
+
+#MBHalaiShabirKumbhar {
+    font-family: 'MB Halai Shabir Kumbhar 2.0';
+}
+
+#MBKhursheedSK {
+    font-family: 'MB Khursheed SK 2.0';
+}
+
+#MBKufiSK {
+    font-family: 'MB Kufi SK 2.0';
+}
+
+#MBLeekyalShabirKumbhar {
+    font-family: 'MB Leekyal Shabir Kumbhar 2.0';
+}
+
+#MBSookhriShabirKumbhar {
+    font-family: 'MB Sookhri Shabir Kumbhar 2.0';
+}
+
+#MBLateefi {
+    font-family: 'MBLateefi';
+}
+
+#MBSindhiWeb {
+    font-family: 'MBSindhiWeb';
+}
+
+#PhotographSignature {
+    font-family: 'Photograph Signature';
+}
+
+#talldark {
+    font-family: 'talldark';
+}
+
+#TitleWaveRegular {
+    font-family: 'Title Wave Regular';
+}
+
+#UrdType {
+    font-family: 'UrdType';
+}
+
