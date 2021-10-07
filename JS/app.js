@@ -57,3 +57,18 @@ var select = document.getElementById('fontWeight');
 var option = select.options[select.selectedIndex]
 document.getElementById('post').style.fontWeight = option.innerText;
 }
+
+function fontColorPicker() {
+document.getElementById('post').style.color = document.getElementById('fontColorPicker').value;
+}
+
+function statusColorPicker() {
+document.getElementById('fullpost').style.backgroundColor = document.getElementById('statusColorPicker').value;
+}
+
+
+function statusWidth() {
+    var select = document.getElementById('statusWidth');
+    var option = select.options[select.selectedIndex]
+    document.getElementById('post').style.width = option.innerText;
+    }
