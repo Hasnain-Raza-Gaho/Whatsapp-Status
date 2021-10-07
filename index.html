@@ -6,42 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <style>
-       
-
-    </style>
 </head>
 <body>
 <div id="data">
     <h2>Write Here Whatever You Want to Post!</h2>
-    <textarea name="field" id="textField" cols="30" rows="10"></textarea>
+    <textarea name="field" id="textField"></textarea>
 </div>
 <!-- <br> -->
-<div>
-    <select id="textTransform">
-        <option id="uppercase" onclick="uppercase()" >Capital Every Letter</option>
-        <option id="capitalize" onchange="capitalize()">Capital First Letter</option>
+<div id="buttons">
+<div id="textTransformDiv">
+    <select id="textTransform" onchange="textTransform()">
+        <option disabled selected>Text Transform Style</option>
+        <option value="uppercase">Capital Every Letter</option>
+        <option value="capitalize">Capital First Letter</option>
+        <option value="empty">Defualt</option>
     </select>
+</div>
+
+<div id="textAlignDiv">
+    <select id="textAlign" onchange="textAlign()">
+        <option disabled selected>Text Alignment</option>
+        <option value="left">Left</option>
+        <option value="center">Center</option>
+        <option value="right">Right</option>
+    </select>
+</div>
 </div>
 <br>
 <br>
 <br>
     <div class="fullpost">
   
-        <div class="name">
+        
+         
+            <div class="name">
             
                 <div id="info">
                     <div id="image">
 
-                        <img src="./Assets/Nawab Black Art.jpg" alt="profile pic">
+                        <!-- <img src="./Assets/Nawab Black Art.jpg" alt="profile pic"> -->
                     </div>
                     <div id="information">
 
-                        <h2>Hasnain Raza</h2>
-                        <p class="id">Web-Developer</p>
+                        <!-- <h2>Hasnain Raza</h2> -->
+                        <!-- <p class="id">Web-Developer</p> -->
                     </div>
                 </div>
-                
+
+
+        
             
           
 <p id="post"></p>
