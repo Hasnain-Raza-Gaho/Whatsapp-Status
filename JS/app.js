@@ -80,7 +80,6 @@ function fontFamily() {
 
     if(option.value == 'talldark'){
         document.getElementById('post').style.letterSpacing = '4px'
-        // document.getElementById('post').style.lineHeight += '8px'
 
     }
     }
