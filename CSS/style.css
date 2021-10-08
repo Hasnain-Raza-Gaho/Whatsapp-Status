@@ -15,11 +15,11 @@
     /* height: 1000px; */
     padding: 300px 0;
     background-color: rgb(0, 0, 0);
-    background:url(/Assets/annie-spratt-OthPgcYCHfc-unsplash.jpg) ;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-    background-blend-mode: screen;
+    /* background:url(/Assets/annie-spratt-OthPgcYCHfc-unsplash.jpg) ; */
+    /* background-position: center; */
+    /* background-size:cover; */
+    /* background-attachment: fixed; */
+    /* background-blend-mode: overlay; */
 }
 
 
@@ -95,7 +95,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    /* margin: 20px; */
+
 }
 #data h2{
     margin: 20px;
@@ -131,6 +132,8 @@ font-family: calibri;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* margin: 0px 20px; */
+
 }
 
 #buttons>div{
@@ -138,8 +141,8 @@ font-family: calibri;
 }
 #buttons option{
     padding: 10px;
-    margin: 20px;
-    font-size: 30px;
+    margin: 10px;
+    font-size: 25px;
 }
 
 #fontColor, #statusColor{
@@ -152,8 +155,36 @@ font-family: calibri;
     padding: 5px;
 }
 
+#buttons, #data{
+    background-color: rgba(202, 246, 80, 0.411);
+    /* width: 90%; */
+    /* margin: 20px; */
+    padding: 10px;
+}
+
+body{
+    background-color: rgba(255, 238, 0, 0.109);
+}
+
+
+#navbarid{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    background-color: rgb(0, 60, 68);
+    color: white;
+}
+#navbarid li{
+    padding: 10px;
+}
+#navbarid li:hover{
+    padding: 10px;
+    background-color: yellowgreen;
+    /* font-weight: bold; */
+    color: white;
+}
 #marker{
-    font-family: marker;
+    font-family: 'marker';
 }
 
 #oldfonts {
