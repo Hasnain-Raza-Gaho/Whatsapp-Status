@@ -177,12 +177,136 @@ body{
 #navbarid li{
     padding: 10px;
 }
+#navbarid li a{
+    text-decoration: none;
+    color: white;
+}
 #navbarid li:hover{
     padding: 10px;
     background-color: yellowgreen;
     /* font-weight: bold; */
     color: white;
 }
+
+
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#aboutme h1{
+    margin: 10px;
+    text-transform: uppercase;
+    background-color: rgb(247, 255, 180);
+    padding: 20px;
+    color: yellowgreen;
+}
+
+#aboutme p{
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    color: rgb(65, 65, 65);
+    text-align: justify;
+    width: 80%;
+}
+
+
+
+
+
+#howtouse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#howtouse h1{
+    margin: 10px;
+    text-transform: uppercase;
+    background-color: rgb(247, 255, 180);
+    padding: 20px;
+    color: yellowgreen;
+}
+
+#howtouse div{
+    margin: 10px;
+    background-color: rgba(236, 236, 236, 0.363);
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(65, 65, 65);
+    text-align: justify;
+    border:1px solid rgb(233, 233, 233);
+    width: 80%;
+}
+
+#howtouse #question{
+    background-color: rgb(251, 190, 190);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#howtouse #answer{
+    background-color: rgb(197, 251, 190);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+#btnwhtsp a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(248, 248, 185);
+}
+#btnwhtsp{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+footer{
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+    text-align: center;
+    font-size: 12px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.imagecontainer{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 100%; */
+    text-align: center;
+
+}
+img{
+
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+
+}
+
 #marker{
     font-family: 'marker';
 }
