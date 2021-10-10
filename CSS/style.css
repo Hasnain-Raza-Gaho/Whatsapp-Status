@@ -301,6 +301,18 @@ footer{
     text-align: center;
 
 }
+
+
+#hint{
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(245, 253, 135);
+    padding: 10px;
+    font-family: 'calibri';
+    font-weight: 600;
+    color: rgb(65, 64, 64);
+}
+
 img{
 
     width: 70%;
