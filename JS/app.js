@@ -77,9 +77,4 @@ function fontFamily() {
     var select = document.getElementById('fontFamily');
     var option = select.options[select.selectedIndex]
     document.getElementById('post').style.fontFamily = option.value;
-
-    if(option.value == 'talldark'){
-        document.getElementById('post').style.letterSpacing = '4px'
-
-    }
     }
