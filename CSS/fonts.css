@@ -164,3 +164,7 @@
     src: url('/Assets/fonts/UrdTypeb.ttf');
 }
 
+@font-face {
+    font-family: 'SaremIqra';
+    src: url('/Assets/fonts/MB-Sarem-Iqra-2.0-Regular.ttf');
+}
