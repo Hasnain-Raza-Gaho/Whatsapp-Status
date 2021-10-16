@@ -78,3 +78,17 @@ function fontFamily() {
     var option = select.options[select.selectedIndex]
     document.getElementById('post').style.fontFamily = option.value;
     }
+
+
+
+   function bgImg(){
+    var select = document.getElementById('bgImg');
+    var option = select.options[select.selectedIndex]
+    
+    if(option.value == 'nature'){
+
+        document.getElementById('post').style.backgroundImage = "url('https://source.unsplash.com/1600x900/?nature";
+    }
+    
+    
+   }
