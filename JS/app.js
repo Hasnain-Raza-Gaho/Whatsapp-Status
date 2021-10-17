@@ -82,13 +82,30 @@ function fontFamily() {
 
 
    function bgImg(){
+
     var select = document.getElementById('bgImg');
     var option = select.options[select.selectedIndex]
     
-    if(option.value == 'nature'){
+    if(option.value == 'nature' || 'water' || 'building', 'car'){
+        var link = "url('https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ option.value + ")";
+        document.getElementById('fullpost').style.backgroundImage = link;
+        document.getElementById('bgBlendDiv').removeAttribute('class');
 
-        document.getElementById('post').style.backgroundImage = "url('https://source.unsplash.com/1600x900/?nature";
+    }
+
+    else if(option.value == 'none'){
+        document.getElementById('fullpost').style.backgroundImage = "";
+        document.getElementById('bgBlendDiv').setAttribute('class','none')
     }
     
     
    }
+
+
+   function bgBlend(){
+
+    var select = document.getElementById('bgBlend');
+    var option = select.options[select.selectedIndex]
+    
+        document.getElementById('fullpost').style.backgroundBlendMode = option.value;
+    }
