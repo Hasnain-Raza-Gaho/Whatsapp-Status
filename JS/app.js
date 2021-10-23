@@ -87,7 +87,7 @@ function fontFamily() {
     var option = select.options[select.selectedIndex]
     
     if(option.value != 'none'){
-        var link = 'url(\'https://source.unsplash.com/' + screen.width + 'x'  + screen.height + '/?'+ option.value + '\')';
+        var link = 'url(https://source.unsplash.com/' + screen.width + 'x'  + screen.height + '/?'+ option.value + ')';
         document.getElementById('fullpost').style.backgroundImage = link;
         document.getElementById('bgBlendDiv').removeAttribute('class');
         console.log(document.getElementById('fullpost').classList)
