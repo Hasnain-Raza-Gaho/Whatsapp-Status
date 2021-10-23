@@ -1,3 +1,13 @@
 .natural{
     background-image: url('https://source.unsplash.com/1677x420/?madinah,saudi,arabia');
 }
+
+html, body {
+    height: 100%;
+}
+html {
+    overflow-y: hidden;
+}
+body {
+    overflow-y: scroll;
+}
