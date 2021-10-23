@@ -86,9 +86,18 @@ function fontFamily() {
     var select = document.getElementById('bgImg');
     var option = select.options[select.selectedIndex]
     
-    if(option.value == 'nature' || 'water' || 'building', 'car'){
-        var link = "url('https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ option.value + "')";
-        document.getElementById('fullpost').style.backgroundImage = link;
+    // if(option.value != 'none'){
+    //     var link = 'url(\'https://source.unsplash.com/' + screen.width + 'x'  + screen.height + '/?'+ option.value + '\')';
+    //     document.getElementById('fullpost').style.backgroundImage = link;
+    //     document.getElementById('bgBlendDiv').removeAttribute('class');
+    //     console.log(document.getElementById('fullpost').classList)
+
+    //     console.log(link)
+    // }
+    
+    if(option.value == 'nature'){
+        
+        document.getElementById('fullpost').setAttribute('style','background-image: url(\'https://source.unsplash.com/1677x420/?madinah,saudi,arabia\');')
         document.getElementById('bgBlendDiv').removeAttribute('class');
         console.log(document.getElementById('fullpost').classList)
 
