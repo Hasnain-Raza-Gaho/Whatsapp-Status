@@ -81,24 +81,24 @@ function fontFamily() {
 
 
 
-   function bgImg(){
+//    function bgImg(){
 
-    var select = document.getElementById('bgImg');
-    var option = select.options[select.selectedIndex]
+//     var select = document.getElementById('bgImg');
+//     var option = select.options[select.selectedIndex]
     
-    if(option.value != 'none'){
-        var link = 'url(https://source.unsplash.com/' + screen.width + 'x'  + screen.height + '/?'+ option.value + ')';
-        document.getElementById('fullpost').style.backgroundImage = link;
-        document.getElementById('bgBlendDiv').removeAttribute('class');
-        console.log(document.getElementById('fullpost').classList)
+//     if(option.value != 'none'){
+//         var link = 'url(https://source.unsplash.com/' + screen.width + 'x'  + screen.height + '/?'+ option.value + ')';
+//         document.getElementById('fullpost').style.backgroundImage = link;
+//         document.getElementById('bgBlendDiv').removeAttribute('class');
+//         console.log(document.getElementById('fullpost').classList)
 
-        console.log(link)
-    }
+//         console.log(link)
+//     }
     
-    else if(option.value == 'none'){
-        document.getElementById('fullpost').style.backgroundImage = "";
-        document.getElementById('bgBlendDiv').setAttribute('class','none')
-    }
+//     else if(option.value == 'none'){
+//         document.getElementById('fullpost').style.backgroundImage = "";
+//         document.getElementById('bgBlendDiv').setAttribute('class','none')
+//     }
 
         // var inptext = document.getElementById('inputImg');
         // var link = "url(\'https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ inptext.value + "\')";
@@ -107,7 +107,7 @@ function fontFamily() {
         // document.getElementById('bgBlendDiv').removeAttribute('class');
         // console.log(document.getElementById('fullpost').classList)
     
-   }
+//    }
 
 
    function bgBlend(){
