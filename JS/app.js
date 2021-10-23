@@ -87,17 +87,25 @@ function fontFamily() {
     var option = select.options[select.selectedIndex]
     
     if(option.value == 'nature' || 'water' || 'building', 'car'){
-        var link = "url('https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ option.value + ")";
+        var link = "url('https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ option.value + "')";
         document.getElementById('fullpost').style.backgroundImage = link;
         document.getElementById('bgBlendDiv').removeAttribute('class');
+        console.log(document.getElementById('fullpost').classList)
 
+        console.log(link)
     }
 
     else if(option.value == 'none'){
         document.getElementById('fullpost').style.backgroundImage = "";
         document.getElementById('bgBlendDiv').setAttribute('class','none')
     }
-    
+
+        // var inptext = document.getElementById('inputImg');
+        // var link = "url(\'https://source.unsplash.com/" + screen.width + "x"  + screen.height + "/?"+ inptext.value + "\')";
+        // // var link = "https://picsum.photos/1600/900/?blur";
+        // document.getElementById('fullpost').style.background = link;
+        // document.getElementById('bgBlendDiv').removeAttribute('class');
+        // console.log(document.getElementById('fullpost').classList)
     
    }
 
