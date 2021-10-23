@@ -97,9 +97,9 @@ function fontFamily() {
     
     if(option.value == 'nature'){
         
-        document.getElementById('fullpost').setAttribute('style','background-image: url(\'https://source.unsplash.com/1677x420/?madinah,saudi,arabia\');')
-        document.getElementById('bgBlendDiv').removeAttribute('class');
-        console.log(document.getElementById('fullpost').classList)
+        document.getElementById('fullpost').setAttribute('class','natural')
+        // document.getElementById('bgBlendDiv').removeAttribute('class');
+        // console.log(document.getElementById('fullpost').classList)
 
         console.log(link)
     }
